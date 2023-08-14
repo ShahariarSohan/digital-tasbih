@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Tasbih</title>
+    <!-- daisy and tailwind cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css"/>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body class="container mx-auto"> 
+    <div id="tasbih" class="grid grid-cols-1  lg:grid-cols-3  lg:gap-12 lg:items-center lg:h-[500px] m-5  gap-5 ">
+        <!-- subhanallah -->
+        <div id="subhanallah"class="card  bg-neutral text-neutral-content ">
+            <div class="card-body items-center text-center space-y-5">
+              <h2 class="card-title">SUBHANALLAH</h2>
+              <p id="p-1"class="text-5xl text-yellow-500">0</p>
+              <div class="card-actions justify-end">
+                <button id="btn-1"class="btn bg-green-600">Increment</button>
+                <button id="btn-2"class="btn bg-red-600">Decrement</button>
+              </div>
+            </div> 
+          </div> 
+      <!-- alhamdulillah -->
+      <div id="alhamdulillah"class="card  bg-neutral text-neutral-content ">
+        <div class="card-body items-center text-center space-y-5">
+          <h2 class="card-title">ALHAMDULILAH</h2>
+          <p id="p-2"class="text-5xl text-yellow-500">0</p>
+          <div class="card-actions justify-end">
+            <button id="btn-3"class="btn bg-green-600">Increment</button>
+            <button id="btn-4"class="btn bg-red-600">Decrement</button>
+          </div> 
+        </div>
+      </div>
+      <!-- allahuakbar -->
+      <div id="allahuakbar"class="card  bg-neutral text-neutral-content ">
+        <div class="card-body items-center text-center space-y-5">
+          <h2 class="card-title">ALLAHUAKBAR</h2>
+          <p id="p-3"class="text-5xl text-yellow-500">0</p>
+          <div class="card-actions justify-end">
+            <button id="btn-5"class="btn bg-green-600">Increment</button>
+            <button id="btn-6"class="btn bg-red-600">Decrement</button>
+          </div>
+        </div> 
+      </div>
+    </div>
+    <div class="flex justify-center">
+      <button id="btn"class="btn bg-blue-500 ">Reset All</button>
+        </div>
+
+
+
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
